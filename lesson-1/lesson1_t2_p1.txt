@@ -1,0 +1,8 @@
+-- sql request
+
+use shop;
+update catalogs set name='empty' where name is null;
+
+-- this will update all or zero lines with NULL in `name` column.
+-- actually i didn't undestand the task, what does it mean " remember, that we set uniqueness
+-- for `name` colomn at the last lesson"?
